@@ -1,0 +1,13 @@
+.container {
+  position: absolute;
+}
+
+.nav-panel {
+  position: absolute;
+  width: 120px;
+}
+
+.content {
+  margin-left: 120px;
+  padding-left: 30px;
+}
