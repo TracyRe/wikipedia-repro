@@ -19,7 +19,7 @@ a:hover, a:active {
 .nav-panel {
   position: absolute;
   width: 170px;
-  border-right: 1px solid #0ff;
+  border-right: 1px solid #05b4ff;
   padding-right: 10px;
   font-size: 85%;
   min-height: 100%;
@@ -44,9 +44,48 @@ a:hover, a:active {
 }
 
 .section1 {
-  background-color: #6bdbb2;
+  background-color: #edfcf6;
+  border: 1px solid #c2eddc;
+  border-radius: 0;
 }
 
-div.section1 div.panel-heading  {
-  background-color: #9ed8c3;
+.section1 .panel-heading  {
+  background-color: #c2eddc;
+}
+
+.section2 {
+  background-color: #edf6ff;
+  border: 1px solid #cbdff4;
+  border-radius: 0;
+}
+
+.section2 .panel-heading  {
+  background-color: #cbdff4;
+}
+
+.section3 {
+  background-color: #faefff;
+  border: 1px solid #e3ceed;
+  border-radius: 0;
+}
+
+.section3 .panel-heading  {
+  background-color: #e3ceed;
+}
+
+.panel-heading {
+  border: 1px solid #bbb;
+  border-radius: 0;
+  padding: 4px 2px 4px 6px;
+}
+
+.panel-title  {
+  font-weight: bold;
+}
+
+.panel {
+  background: none;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
 }
