@@ -1,13 +1,44 @@
+body {
+  font-family: sans-serif;
+  background: #fff;
+}
+
+a {
+font-weight: bold;
+color: #01d;
+}
+
+a:hover, a:active {
+  color: #01d;
+}
+
 .container {
   position: absolute;
 }
 
 .nav-panel {
   position: absolute;
-  width: 120px;
+  width: 170px;
+  border-right: 1px solid #0ff;
+  padding-right: 10px;
+  font-size: 85%;
+  min-height: 100%;
+  background: #f2f2ef;
+}
+
+.nav-panel a {
+  font-weight: normal;
+}
+
+.nav-panel h1 {
+  font-size: 1em;
+  color: #333;
+  border-bottom: 1px solid #ccc;
+  margin-top: 1rem;
 }
 
 .content {
-  margin-left: 120px;
-  padding-left: 30px;
+  margin-left: 190px;
+  background: #fff;
+  min-width: 100%;
 }
