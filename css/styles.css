@@ -46,3 +46,7 @@ a:hover, a:active {
 .section1 {
   background-color: #6bdbb2;
 }
+
+div.section1 div.panel-heading  {
+  background-color: #9ed8c3;
+}
